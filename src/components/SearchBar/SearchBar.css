@@ -1,0 +1,7 @@
+.searchBar{
+    display: block;
+}
+
+.searchbarSortOptions ul{
+    display: flex;
+}

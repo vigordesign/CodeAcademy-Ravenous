@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Business from './components/Business';
+import BusinessList from "./components/BusinessList/BusinessList";
+import SearchBar from './components/SearchBar/SearchBar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Business/>
+      <h2>Ravenous</h2>
+      <SearchBar />
+      <BusinessList />
     </div>
   );
 }
