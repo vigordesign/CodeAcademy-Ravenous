@@ -3,7 +3,7 @@ import styles from "./SearchBar.css";
 
 const sortOptions = {
     "Best Match":"best_match",
-    "Highest Rated,":"rating",
+    "Highest Rated":"rating",
     "Most Reviewed":"review_count",
 };
 

@@ -1,7 +1,16 @@
 .searchBar{
     display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .searchbarSortOptions ul{
     display: flex;
+    justify-content: center;
+}
+
+.searchbarSortOptions li{
+    padding-right: 30px;
+    list-style-type: none;
 }
