@@ -12,7 +12,6 @@ const SearchBar = () => {
         return Object.keys(sortOptions).map((sortOption) => {
             let sortByOptionValue = sortOptions[sortOption];
             return <li key={sortByOptionValue}>{sortOption}</li>;
-            {console.log("honk!")}
         });
     };
     
@@ -21,8 +20,13 @@ const SearchBar = () => {
             <div className='searchbarSortOptions'>
                 <ul>{renderSortOptions()}</ul> 
             </div>
-            <input placeholder="Search Businesses"></input>
-            <input placeholder="Location"></input>
+            <div className='searchFields'>
+                <input placeholder="Search Businesses"></input>
+                <input placeholder="Location"></input>
+            </div>
+            <div className='searchBtn'>
+            <a>Let's Go</a>
+            </div>
         </div>
     )
 };

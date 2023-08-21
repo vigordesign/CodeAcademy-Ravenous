@@ -6,7 +6,9 @@ import SearchBar from './components/SearchBar/SearchBar';
 const App = () => {
   return (
     <div className="App">
-      <h2>Ravenous</h2>
+      <div className='header'>
+        <h2>Ravenous</h2>
+      </div>
       <SearchBar />
       <BusinessList />
     </div>

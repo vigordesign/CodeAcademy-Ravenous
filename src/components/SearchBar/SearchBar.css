@@ -1,8 +1,11 @@
-.searchBar{
-    display: block;
-    margin: auto;
-    width: 50%;
-    text-align: center;
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./background_search_desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
 }
 
 .searchbarSortOptions ul{
@@ -13,4 +16,32 @@
 .searchbarSortOptions li{
     padding-right: 30px;
     list-style-type: none;
+    color: white;
+    font-weight: bold;
 }
+
+.searchFields {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBtn {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBtn a {
+    /* width: 7rem; */
+    border-radius: 4px;
+    padding: 0.72rem 1.7rem;
+    background-color: #cca353;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.searchBtn a:hover {
+    cursor: pointer;
+    background-color: #a7874b;
+  }
